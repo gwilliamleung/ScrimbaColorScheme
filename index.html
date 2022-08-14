@@ -4,21 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
     <title>Scrimba Color Scheme Generator</title>
 </head>
 <body>
-    <input type="color" id="color">
-    <select id="scheme">
-        <option>Monochrome </option>
-        <option>Monochrome-dark </option>
-        <option>Monochrome-light </option>
-        <option>Analogic  </option>
-        <option>Complement </option>
-        <option>Analogic-complement </option>
-        <option>Triad  </option>
-    </select>
-    <button id="btn">Get color scheme</button>
-    <section id="colorBody"></section>
+    <div class="container">
+        <div class="optionContainer">
+            <input type="color" id="color">
+            <select id="scheme">
+                <option>Monochrome</option>
+                <option>Monochrome-dark</option>
+                <option>Monochrome-light</option>
+                <option>Analogic </option>
+                <option>Complement</option>
+                <option>Analogic-complement</option>
+                <option>Triad </option>
+                <option>Quad </option>
+            </select>
+            <button id="btn">Get color scheme</button>
+        </div>
+        <section id="colorBody"></section>
+        <div class="textContainer">
+            <div id="textBody"></div>
+        </div>
+    </div>
 </body>
 </html>

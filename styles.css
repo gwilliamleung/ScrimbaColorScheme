@@ -1,4 +1,63 @@
 html, body {
     margin: 0;
     padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-size:12px;
+
 }
+
+.container{
+    width:500px;
+    height:600px;
+    margin:50px auto;
+    text-align: center;
+    box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.15);
+    background: #FFFFFF;
+}
+
+.optionContainer{
+    display:flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.textContainer{
+    padding-top:25px;
+}
+
+input{
+    box-sizing: border-box;
+    background: #E5E5E5;
+    border: 0.5px solid #D1D5DB;
+    width:60px;
+    height:40px;
+}
+select,
+button{
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05)
+}
+
+select{
+    width:50%;
+    border-radius: 6px;
+    padding-left:5px;
+}
+
+button{
+    background: #FFFFFF;
+    border-radius: 4px;
+    cursor:pointer;
+}
+
+.colorRow,
+.textRow{
+    width:100%;
+}
+
+#colorBody,
+#textBody{
+    height:75%;
+    display:flex;
+    flex-direction: row;
+}
+
